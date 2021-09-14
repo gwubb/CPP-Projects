@@ -9,13 +9,15 @@ The coneVolume function is called from the main function.
 double coneVolume(double r, double h) {
     double v;
 
-    v = 3.14*(r*r)*(h/3);
+    v = 3.1415*(r*r)*(h/3);
 
     return v;
 }
 
 int main() {
     double radius, height;
+
+    cout << "This program finds the volume of a cone." << endl;
 
     // Omit the endl if you want to use cin or cout on the same line in the terminal
     cout << "Enter the radius: ";
