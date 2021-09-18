@@ -3,7 +3,7 @@
 
 using namespace std;
 
-// The function volCube calculates the volume of a cube with the number inputted by the user in int main()
+// The function volCube calculates the volume of a cube with the number entered by the user in int main()
 //The function is called in the main function
 double volCube(double e) {
     double vs;
@@ -13,6 +13,8 @@ double volCube(double e) {
     return vs;
 }
 
+// The function volTri calculates the volume of a triangular prisim with the numbers entered by the user in int main()
+// The function is called in the main function
 double volTri(double a, double b, double c, double h){
     double vt;
 
@@ -21,6 +23,8 @@ double volTri(double a, double b, double c, double h){
     return vt;
 }
 
+// The function voCyl calculates the volume of a cylinder with the numbers entered by the user in int main()
+// The function is called in the main function
 double volCyl(double r, double h) {
     double vc;
 
